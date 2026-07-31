@@ -1,0 +1,127 @@
+# 🔐 Password Manager CLI
+
+A simple command-line Password Manager built with Python.
+
+This project was developed as part of my Python learning journey to practice modular programming, JSON persistence, input validation, secure password generation, and clean code principles.
+
+---
+
+## ✨ Features
+
+- Add new passwords
+- View saved passwords
+- Search passwords by website
+- Update passwords
+- Delete passwords
+- Generate secure random passwords
+- Automatic JSON persistence
+- Input validation
+- Duplicate website prevention
+
+---
+
+## 🛠️ Technologies
+
+- Python 3
+- JSON
+- `secrets`
+- `string`
+- `os`
+
+---
+
+## 📁 Project Structure
+
+```text
+password-manager-cli/
+│
+├── main.py
+├── passwords.py
+├── storage.py
+├── passwords.json
+├── README.md
+├── LICENSE
+└── .gitignore
+```
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/password-manager-cli.git
+```
+
+### Enter the project folder
+
+```bash
+cd password-manager-cli
+```
+
+### Run the application
+
+```bash
+python main.py
+```
+
+---
+
+## 📚 Skills Practiced
+
+- Python Fundamentals
+- Functions
+- Modular Programming
+- Lists and Dictionaries
+- File Handling
+- JSON Serialization
+- Error Handling
+- Input Validation
+- Secure Password Generation
+- Clean Code
+
+---
+
+## 📸 Preview
+
+```text
+====================================
+        PASSWORD MANAGER
+====================================
+
+1 - Add Password
+2 - Show Passwords
+3 - Search Website
+4 - Update Password
+5 - Delete Password
+6 - Generate Password
+7 - Save Passwords
+0 - Exit
+```
+
+---
+
+## 🔮 Future Improvements
+
+- Encrypt stored passwords
+- Master password authentication
+- Password strength checker
+- Copy password to clipboard
+- Export passwords to CSV
+- Import passwords from CSV
+- Graphical User Interface (Tkinter or CustomTkinter)
+
+---
+
+## 👨‍💻 Author
+
+**Gustavo Ferreira**
+
+GitHub: https://github.com/YOUR_USERNAME
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
